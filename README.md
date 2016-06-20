@@ -2,7 +2,11 @@
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/flexzuu/react-trianglify.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=%5Bobject%20Object%5D)
 [![GitHub stars](https://img.shields.io/github/stars/flexzuu/react-trianglify.svg)](https://github.com/flexzuu/react-trianglify/stargazers)
 
-##Props
+This React Component wraps the [trianglify lib](https://github.com/qrohlf/trianglify) for easy usage with React.
+
+----------
+
+## Props
 Most of the props map direktly to trianglify options.
 
 | prop          | trianglify option                                                     | short description                                         |
