@@ -5,7 +5,27 @@
 This React Component wraps the [trianglify lib](https://github.com/qrohlf/trianglify) for easy usage with React.
 
 ----------
+## Usage
+### Install
+```
+> npm install https://github.com/flexzuu/react-trianglify.git --save
+```
 
+### Import
+``` javascript
+import Trianglify from 'react-trianglify';
+```
+### Use Example
+``` javascript
+<Trianglify
+  width={50}
+  height={50}
+  cellSize={10}
+  seed={this.props.user.email}
+  className="avatar avatar-medium avatar-rounded"
+  style={{ margin: 10 }}
+/>
+```
 ## Props
 Most of the props map direktly to trianglify options.
 
