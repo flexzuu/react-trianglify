@@ -5,8 +5,7 @@
   "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel ./src/trianglify.jsx -o ./dist/index.js",
-    "prepublish": "npm run build"
+    "build": "babel ./src -o ./dist/index.js"
   },
   "keywords": [
     "react",

@@ -12,6 +12,10 @@ var _trianglify = require('trianglify');
 
 var _trianglify2 = _interopRequireDefault(_trianglify);
 
+var _utils = require('./utils');
+
+var _utils2 = _interopRequireDefault(_utils);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function Trianglify(_ref) {
@@ -40,7 +44,7 @@ function Trianglify(_ref) {
     color_function: colorFunction,
     stroke_width: strokeWidth
   };
-  var pattern = (0, _trianglify2.default)(JSON.parse(JSON.stringify(config)));
+  var pattern = (0, _trianglify2.default)((0, _utils2.default)(config));
   return _react2.default.createElement(
     'svg',
     {
@@ -62,3 +66,13 @@ function Trianglify(_ref) {
 }
 
 exports.default = Trianglify;
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+function removeUndefined(obj) {
+  return JSON.parse(JSON.stringify(obj));
+}
+
+exports.default = removeUndefined;

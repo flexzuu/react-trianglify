@@ -1,5 +1,6 @@
 import React from 'react';
 import trianglify from 'trianglify';
+import removeUndefined from './utils';
 
 function Trianglify({
   height,
@@ -27,7 +28,7 @@ function Trianglify({
     color_function: colorFunction,
     stroke_width: strokeWidth,
   };
-  const pattern = trianglify(JSON.parse(JSON.stringify(config)));
+  const pattern = trianglify(removeUndefined(config));
   return (
     <svg
       className={className}
