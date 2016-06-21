@@ -15,8 +15,12 @@
     "svg"
   ],
   "author": "Jonas Faber",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": "https://github.com/flexzuu/react-trianglify/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flexzuu/react-trianglify.git"
+  },
   "homepage": "https://github.com/flexzuu/react-trianglify",
   "dependencies": {
     "react": "^15.1.0",
