@@ -3,6 +3,9 @@ module.exports = {
     "plugins": [
         "react"
     ],
+    "env": {
+      "mocha": true,
+    },
     "parserOptions": {
     "ecmaFeatures": {
         "experimentalObjectRestSpread": true
