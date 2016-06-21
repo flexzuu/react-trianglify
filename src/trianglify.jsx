@@ -1,5 +1,7 @@
 import React from 'react';
 import trianglify from 'trianglify';
+import pure from 'recompose/pure';
+
 import removeUndefined from './utils';
 
 function Trianglify({
@@ -51,4 +53,4 @@ function Trianglify({
   );
 }
 
-export default Trianglify;
+export default pure(Trianglify);

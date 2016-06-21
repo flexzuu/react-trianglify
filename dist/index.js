@@ -12,6 +12,10 @@ var _trianglify = require('trianglify');
 
 var _trianglify2 = _interopRequireDefault(_trianglify);
 
+var _pure = require('recompose/pure');
+
+var _pure2 = _interopRequireDefault(_pure);
+
 var _utils = require('./utils');
 
 var _utils2 = _interopRequireDefault(_utils);
@@ -65,7 +69,7 @@ function Trianglify(_ref) {
   );
 }
 
-exports.default = Trianglify;
+exports.default = (0, _pure2.default)(Trianglify);
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {

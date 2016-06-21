@@ -23,6 +23,7 @@
   "homepage": "https://github.com/flexzuu/react-trianglify",
   "dependencies": {
     "react": "^15.1.0",
+    "recompose": "^0.20.0",
     "trianglify": "^0.4.0"
   },
   "devDependencies": {
