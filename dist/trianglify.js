@@ -3,6 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports.lib = undefined;
 
 var _react = require('react');
 
@@ -70,3 +71,4 @@ function Trianglify(_ref) {
 }
 
 exports.default = (0, _pure2.default)(Trianglify);
+var lib = exports.lib = _trianglify2.default;
