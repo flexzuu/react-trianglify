@@ -54,3 +54,4 @@ function Trianglify({
 }
 
 export default pure(Trianglify);
+export const lib = trianglify;
